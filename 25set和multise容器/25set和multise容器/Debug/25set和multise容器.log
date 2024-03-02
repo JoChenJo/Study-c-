@@ -1,0 +1,72 @@
+﻿  08set容器排序自定义类型.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xutility(1137,19): error C2664: “bool comparePerson::operator ()(Person &,Person &) const”: 无法将参数 1 从“const _Kty”转换为“Person &”
+          with
+          [
+              _Kty=Person
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xutility(1137,20): message : 转换丢失限定符
+C:\Users\Admin\Desktop\新建文件夹 (2)\08set容器排序自定义类型.cpp(23,7): message : 参见“comparePerson::operator ()”的声明
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xutility(1137,19): message : 尝试匹配参数列表“(const _Kty, const _Keyty)”时
+          with
+          [
+              _Kty=Person
+          ]
+          and
+          [
+              _Keyty=Person
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xutility(1136,16): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<const comparePerson&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Kty=Person,
+              _Keyty=Person,
+              _Pr=const comparePerson &,
+              _Ty1=const Person &,
+              _Ty2=const Person &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xtree(994): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Key=Person,
+              _Keyty=Person
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xtree(1001,33): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Key=Person,
+              _Keyty=Person
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xtree(1219,1): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Person&>(const Person &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.35.32215\include\xtree(1219,30): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Person&>(const Person &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson
+          ]
+C:\Users\Admin\Desktop\新建文件夹 (2)\08set容器排序自定义类型.cpp(41,13): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Person>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Person &)”的引用
+          with
+          [
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Alloc=std::allocator<Person>
+          ]
+C:\Users\Admin\Desktop\新建文件夹 (2)\08set容器排序自定义类型.cpp(41,10): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Person>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Person &)”的引用
+          with
+          [
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Alloc=std::allocator<Person>
+          ]

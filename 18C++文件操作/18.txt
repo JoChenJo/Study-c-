@@ -1,0 +1,7 @@
+读数据
+string buf;
+		
+	while (getline(ifs, buf))
+	{
+		cout << buf << endl;
+	}
